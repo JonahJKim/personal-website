@@ -6,12 +6,19 @@
     align-items: center;
     gap: 5rem;
     padding: 2rem;
-    background-color: rgb(155, 153, 153);
+    background-color: rgb(172, 170, 170);
     font-size: 1.1rem;
 
     position: absolute;
     width: 100%;
     bottom: 0;
+}
+
+.footer__disclaimer {
+    position: absolute;
+    left: 2rem;
+    font-style: italic;
+    color: rgb(77, 76, 76)
 }
 
 .footer__name > p {
@@ -36,6 +43,19 @@
 .footer__socials a:active,
 .footer__socials--mail:active,
 .footer__socials--mail:hover {
-    color: black;
+    color: white;
     cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .footer__disclaimer {
+        max-width: 10rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
 }

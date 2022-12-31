@@ -5,9 +5,13 @@ const Footer = () => {
 
     return (
         <footer className='footer'>
+            <div className='footer__disclaimer'>
+                This website was created using React!
+            </div>
+            
             <div className='footer__name'>
                 <p>Jonah Kim</p>
-                <p>© All rights are reserved | 2022</p>
+                <p>© All rights are reserved | 2023</p>
             </div>
             <div className='footer__socials'>
                 <AiFillMail className='footer__socials--mail' size={20} onClick={() => window.location = 'mailto:jonahkim03@gmail.com'} />

@@ -12,6 +12,7 @@ body {
     align-items: center;
     padding: 5rem 2rem;
     padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .home__text {
@@ -19,6 +20,11 @@ body {
     font-size: 1.1rem;
     margin: auto;
     line-height: 30px;
+}
+
+.home__text--company:hover,
+.home__text--company:active {
+    color: white;
 }
 
 .home__text--realtor {
@@ -48,4 +54,17 @@ body {
 .home__image {
     max-height: 35rem;
     margin: auto;
+    box-shadow: 3px 3px 5px 2px gray;
+}
+
+@media (max-width: 900px) {
+    .home {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 400px) {
+    .home__image {
+        max-height: 25rem;
+    }
 }

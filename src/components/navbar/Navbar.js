@@ -15,6 +15,7 @@ const Navbar = () => {
                 <Link to='/education' className='navbar__link--education'>Education</Link>
                 <Link to='/resume' className='navbar__link--resume'>Resume</Link>
                 <Link to='/contact' className='navbar__link--contact'>Contact</Link>                
+
                 <div className='navbar__socials'>
                     <AiFillMail className='navbar__socials--mail' size={20} onClick={() => window.location = 'mailto:jonahkim03@gmail.com'} />
                     

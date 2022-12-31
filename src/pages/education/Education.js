@@ -8,7 +8,7 @@ const Education = () => {
         <Navbar />
         <div className='education'>
             
-            <div className='education__school'>
+            <div className='education__category education__school'>
                 <p className='education__logo'>Relevant School Courses</p>
                 <a target="_blank" rel='noreferrer' className='education__link' href='http://web.cs.ucla.edu/classes/spring1c/cs32/syllabus.html'>Data Structures & Algorithms</a>
                 <a target="_blank" rel='noreferrer' className='education__link' href='http://web.cs.ucla.edu/classes/winter1a/cs33/'>Computer Organization</a>
@@ -23,7 +23,7 @@ const Education = () => {
                 <a target="_blank" rel='noreferrer' className='education__link' href='https://sa.ucla.edu/ro/Public/SOC/Results/ClassDetail?term_cd=15S&subj_area_cd=COM%20SCI&crs_catlg_no=0180%20%20%20%20&class_id=187780200&class_no=%20001%20%20'>Algorithms and Complexity</a>
                 <a target="_blank" rel='noreferrer' className='education__link' href='http://web.cs.ucla.edu/classes/winter22/cs131/'>Programming Languages</a>
             </div>
-            <div className='education__online'>
+            <div className='education__category education__online'>
                 <p className='education__logo'>Online Courses / Books:</p>
                 <a target="_blank" rel='noreferrer' className='education__link' href='https://www.udemy.com/course/learn-ansible/'>Ansible - Mumshad M.</a>
                 <a target="_blank" rel='noreferrer' className='education__link' href='https://www.udemy.com/course/terraform-for-the-absolute-beginners/'>Terraform - Mumshad M.</a>
@@ -50,10 +50,9 @@ const Education = () => {
                 <a target="_blank" rel='noreferrer' className='education__link' href='https://www.udemy.com/course/blockchain-and-bitcoin-fundamentals/'>Crypto & Blockchain - George Levy</a>
                 <a target="_blank" rel='noreferrer' className='education__link' href='https://www.udemy.com/course/startup-fast-track-confident-launch-in-90-days-or-less/'>Startups - Donitas Jonikas</a>
             </div>
-            <div className='education__certifications'>
+            <div className='education__category education__certifications'>
                 <p className='education__logo'>Certifications</p>
                 <a target="_blank" rel='noreferrer' className='education__link' href='https://www.credly.com/badges/5947af55-7e60-4315-824f-b902c90037e3/public_url'>Certified Cloud Practitioner, Amazon Web Services - August 2022</a>
-
             </div>
         </div>
         <Footer />

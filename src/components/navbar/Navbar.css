@@ -14,6 +14,7 @@
 .navbar__name {
     font-size: 1.5rem;
     font-weight: bold;
+    text-shadow: 0.5px 0.5px 1px gray;
 }
 
 .navbar__links {
@@ -21,6 +22,7 @@
     flex-direction: row;
     gap: 1rem;
     font-size: 1.05rem;
+    align-items: center;
 }
 
 .navbar__name,
@@ -61,6 +63,30 @@
 .navbar__socials a:active,
 .navbar__socials--mail:active,
 .navbar__socials--mail:hover {
-    color: black;
+    color: white;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .navbar__name {
+        font-size: 1rem;
+    }
+
+    .navbar__links {
+        gap: 0.8rem;
+        font-size: 0.9rem;
+    }   
+}
+
+@media (max-width: 580px) {
+    .navbar {
+        padding: 2rem 0.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar {
+        flex-direction: column;
+    }
+
 }
