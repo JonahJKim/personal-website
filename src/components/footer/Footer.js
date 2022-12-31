@@ -4,7 +4,7 @@ import { AiFillMail, AiOutlineInstagram, AiOutlineGithub, AiOutlineLinkedin } fr
 const Footer = () => {
 
     return (
-        <div className='footer'>
+        <footer className='footer'>
             <div className='footer__name'>
                 <p>Jonah Kim</p>
                 <p>© All rights are reserved | 2022</p>
@@ -25,7 +25,7 @@ const Footer = () => {
                 </a>
 
             </div>
-        </div>
+        </footer>
     )
 }
 
