@@ -1,0 +1,10 @@
+
+.resume {
+    padding: 10rem 0 5rem 0;
+    text-align: center;
+}
+
+.resume__picture {
+    height: 50%;
+    max-height: 50rem;
+}

@@ -1,0 +1,41 @@
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem;
+    background-color: rgb(155, 153, 153);
+    font-size: 1.1rem;
+
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer__name > p {
+    margin: 0;
+    text-align: center;
+}
+
+.footer__name > p:first-child {
+    font-weight: 400;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 5px;
+}
+
+.footer__socials a {
+    color: black;
+}
+
+.footer__socials a:hover,
+.footer__socials a:active,
+.footer__socials--mail:active,
+.footer__socials--mail:hover {
+    color: black;
+    cursor: pointer;
+}

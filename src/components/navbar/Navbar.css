@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    align-items: center;
+    /* background-color: rgb(243, 241, 241); */
+    background: linear-gradient(to right,  rgba(235, 235, 235, 0.9), rgba(191, 188, 188, 0.9));
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar__name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar__links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.05rem;
+}
+
+.navbar__name,
+.navbar__link--about,
+.navbar__link--projects,
+.navbar__link--education,
+.navbar__link--resume,
+.navbar__link--contact {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar__name:hover,
+.navbar__name:active,
+.navbar__link--about:hover,
+.navbar__link--about:active,
+.navbar__link--projects:hover,
+.navbar__link--projects:active,
+.navbar__link--education:hover,
+.navbar__link--education:active,
+.navbar__link--resume:hover,
+.navbar__link--resume:active,
+.navbar__link--contact:hover,
+.navbar__link--contact:active {
+    color: white;
+}
+
+.navbar__socials {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar__socials a {
+    color: black;
+}
+
+.navbar__socials a:hover,
+.navbar__socials a:active,
+.navbar__socials--mail:active,
+.navbar__socials--mail:hover {
+    color: black;
+    cursor: pointer;
+}

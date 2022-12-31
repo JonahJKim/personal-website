@@ -1,0 +1,44 @@
+
+.education {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 8rem;
+    padding: 10rem 5rem 5rem 5rem;
+    padding-bottom: 10rem;
+}
+
+.education__school {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.education__online {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.education__certifications {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.education__logo {
+    font-weight: 400;
+    margin: 0;
+}
+
+.education__link {
+    text-decoration: none;
+    color:  rgb(66, 66, 66);
+}
+
+.education__link:hover,
+.education__link:active {
+    color: rgb(81, 20, 20);
+    font-weight: 400;
+}
